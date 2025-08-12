@@ -4,7 +4,6 @@ function WeatherInformation({weather}){
     return(
         <div>
             <h2>{weather.name}</h2>
-            <p>{weather.description}</p>
         </div>
     )
 }
